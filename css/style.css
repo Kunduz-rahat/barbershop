@@ -80,5 +80,21 @@ ul li {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
 }
+.hero__grid__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 145px;
+  background: url("../images/bg 2.png");
+  color: black;
+  padding: 48px 80px;
+  text-align: left;
+}
+.hero__grid__info img {
+  width: 286px;
+  height: 164px;
+}
+.hero__grid__info .section__desk {
+  text-align: left;
+}
 
 /*# sourceMappingURL=style.css.map */
