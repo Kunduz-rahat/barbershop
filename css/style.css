@@ -93,8 +93,11 @@ ul li {
   width: 286px;
   height: 164px;
 }
-.hero__grid__info .section__desk {
+.hero .section__desk {
   text-align: left;
+}
+.hero .section__desk:nth-child(1) {
+  margin-top: 19px;
 }
 
 /*# sourceMappingURL=style.css.map */

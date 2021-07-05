@@ -1,53 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
-*{
+
+* {
   margin: 0;
   padding: 0;
 }
-body{
+
+body {
   font-family: 'PT Sans Narrow', sans-serif;
 }
-a{
+
+a {
   display: inline-block;
   text-decoration: none;
 }
-ul li{
+
+ul li {
   list-style: none;
-  }
-.container{
+}
+
+.container {
   max-width: 970px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.header{
+
+.header {
   background-color: #000;
   color: white;
 
 
-  &__container{
-    padding:  28px 0;
+  &__container {
+    padding: 28px 0;
 
   }
-  &__navbar{
 
-  }&__item{
+  &__navbar {
 
-       display: flex;
-     }
-  &__link{
+  }
+
+  &__item {
+
+    display: flex;
+  }
+
+  &__link {
     margin-left: 40px;
-text-transform: uppercase;
+    text-transform: uppercase;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
-        color: #FFFFFF;
+    color: #FFFFFF;
   }
-  &__menu{
+
+  &__menu {
     display: flex;
 
     justify-content: space-between;
     align-items: center;
   }
+
   &__sing a {
     color: white;
     text-transform: uppercase;
@@ -58,30 +70,33 @@ text-transform: uppercase;
 
   }
 }
-.section__title{
+
+.section__title {
   font-weight: bold;
   font-size: 30px;
   line-height: 42px;
 }
-.section__desk{
+
+.section__desk {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-   text-align: center;
+  text-align: center;
+  //margin-top: 25px;
 
 }
-.hero{
+
+.hero {
   padding: 60px 0 70px;
   color: white;
   text-align: center;
   background: url("../images/bg.png");
-
-  &__grid{
+  &__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 20px;
 
-    &__info{
+    &__info {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-column-gap: 145px;
@@ -89,15 +104,17 @@ text-transform: uppercase;
       color: black;
       padding: 48px 80px;
       text-align: left;
-      
-      img{
+      img {
         width: 286px;
         height: 164px;
       }
-      .section__desk{
-        text-align: left;
-      }
     }
   }
+  .section__desk {
+    text-align: left;
+    &:nth-child(1){
+      margin-top: 19px;
+    }
 
+  }
 }
