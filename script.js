@@ -199,310 +199,6 @@
 // console.log(false&&false)
 
 //
-// 1. Вам дана переменная a. Если переменная a равна 10, то выведите 'Верно', иначе выведите 'Неверно'.
-// let a = 24
-// if( a === 10){
-//  console.log( 'Верно')
-// } else {
-//  console.log( 'Неверно')
-// }
-
-//
-// 2.Вам даны две переменные a=50, b=100. Составьте условие, по которому в консоль будет выводиться
-// 'a больше b', 'a меньше b'.
-// let a = 50
-// let b = 100
-//  if ( a < b){
-//   console.log('a меньше b')
-//  }else {
-//   console.log('a больше b')
-//  }
-//
-// 3. Вам дана переменная a=-2. Составьте условие, по которому в консоль будет выводиться 'positive' -
-// если число больше 0, 'равно' если число равно 0, "negative" если число меньше 0.
-// let a = -2
-// if( a > 0 ){
-//     console.log('positive')
-// } else if( a < 0){
-//     console.log('negative')
-// }else if (a === 0){
-//     console.log('равно')
-// }
-
-// 4. Вам дана переменная number=45. Составьте условие, по которому будет выводиться в консоль
-// "Четное число", "Нечетное число".
-// let a = 45
-// // if ( a %2 ===0 ){
-// //     console.log('Четное число')
-// // } else{
-// //     console.log('Нечетное число')
-// // }
-// 5.Вам даны две переменные a=10, b=2. Составьте условие, по которому, остаток деления a на b, будет
-// выводиться консоль "Четное число", "Нечетное число".
-
-// let a = 10
-// let b = 2
-// if ( a%b ===0){
-//     console.log('Четное число')
-// } else {
-//     console.log('Нечетное число')
-// }
-
-// 6. Вам дана переменная s. Составьте условие, по которому в консоль будет выводится тип этой переменной -
-// "boolean", "number", "string".
-//
-// let s = 'kunduz'
-// if (typeof s === 'number'){
-//     console.log('number' )
-// }else if (typeof s === 'boolean'){
-//     console.log('boolean')
-// }else if (typeof s === 'string'){
-//     console.log('string')
-// }
-
-// 7.Вам дана переменная а. Если переменная a больше одного и меньше 9-ти, то выведите
-// 'Верно', иначе выведите 'Неверно'.
-
-// let a = 3
-// if ( a > 1 && a< 9){
-//     console.log('Верно')
-// }else {
-//     console.log('Неверно')
-// }
-// 8.Вам дана переменная а. Если переменная a равна трем или равна семи, то прибавьте к ней 7,
-//     иначе поделите ее на 10. Выведите новое значение переменной в консоль.
-
-// let a = 4
-// if (a ===3 || a===7){
-//     console.log( a+ 7)
-// }else {
-//     console.log( a/10)
-// }
-//
-// 9. Вам даны переменные а , b. Если переменная a равна или меньше 0, а переменная b больше или равна 5,
-//     то выведите сумму этих переменных, иначе выведите их разность (результат вычитания).
-// let a = 1
-// let b = 6
-// if (a<=0 && b>=5){
-//     console.log(a+b)
-// }else {
-//     console.log(a-b)
-// }
-
-// 10. Вам даны переменные a , b. Если переменная a больше 4-х и меньше 10-ти, или переменная b больше или равна
-// 7-ми и меньше 17-ти, то выведите 'Верно', в противном случае выведите 'Неверно'.
-
-// let a = 3
-// let b = 8
-// if (a>4 && a<10 || b>=7 && b>17){
-//     console.log('Верно')
-// }else {
-//     console.log('Неверно')
-// }
-// 11. дана переменная month. В ней лежит какое-то число из интервала от 1 до 12. Определите в какую пору года
-// попадает этот месяц (зима, лето, весна, осень).
-//    let month = 11
-// if (month >=1 && month<=2 && month === 12){
-//     console.log('зима')
-// }else if (month>=3 && month <=5){
-//     console.log('весна')
-// }
-// else if (month>+6 && month <=8){
-//     console.log('лето')
-// }
-// else if (month>=9 && month <=11){
-//     console.log('осень')
-// }
-// 12. Вам дана переменная day. В ней лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца
-// попадает это число (в первую, вторую или третью).
-
-// let a = 31
-// if (a>=1 && a <= 10){
-//     console.log('Первая декада')
-// }else if( a>=11 && a<=20){
-//     console.log('Вторая декада')
-// }else if (a>=21 && a<=31){
-//     console.log('Третья декада')
-// }else{
-//     console.log('Неверное число')
-// }
-// 13. Вам дана переменная a='12345'. Проверьте, что первым символом этой переменной является цифра 1, 2 или 3. Если это так
-// – выведите ‘да’, в противном случае выведите ‘нет’.
-// let a = '12345'
-// if (a[])
-
-// 14. Вам дана переменная age=*любое двузначное число*. Составьте условие, по которому, в консоль будет выводиться "Мне ** год",
-//     "Мне ** лет", в зависимости от возраста. Наример мне 21 год, мне 20 лет.
-
-// let age= 56
-// if (age >=10 && age<=20 ){
-//     console.log(`Мне ${age} лет`)
-// } else if (age % 10===1){
-//     console.log(`Мне ${age} год`)
-// }else if (age % 10===2 || age % 10===3 || age % 10===4 ){
-//     console.log(`Мне ${age} года`)
-// }else {
-//     console.log(`Мне ${age} лет`)
-// }
-// 15. Вам дана переменная time= *любое чило от 1 до 59*. Составьте условие, по
-// которому время будет делиться на четверти. Пример: time = 12 -
-//     Первая четверть. Если число больше 60, то в консоли будет выдаваться "Неверное число".
-
-// let time = 6
-// if (time>=0 && time<=15){
-//     console.log('Первая четрверь')
-// } else if (time >16 && time<=30){
-//     console.log('Вторая четверть')
-// }else if (time>30 && time<=45){
-//     console.log('Третья четверть')
-// }else if (time >45 && time<=60){
-//     console.log('Четвертая четверть')
-// }else {
-//     console.log(' Неверное число')
-// }
-
-// 16. Вам дана переменная num. Если переменная a равна
-// // 110, то выведите 'Верно', иначе выведите 'Неверно'.
-//  let a = 110
-// if (a ===110){
-//     console.log('Верно')
-// }else {
-//     console.log('Неверно')
-// }
-
-// 17. Вам дана переменная а. Если переменная a больше 40 и меньше
-// 60, то выведите 'Верно', иначе выведите 'Неверно'
-//
-// let a = 56
-// if (a > 40 && a < 60){
-//     console.log('Верно')
-// }else {
-//     console.log('Неверно')
-// }
-
-// 18. Даны переменные a и b. Проверьте, что a делится без остатка на b. Если это так -
-// выведите 'Делится' и результат деления, иначе выведите 'Делится с остатком' и остаток от деления.
-
-// let a = 35
-// let b = 8
-// if (a%b===0){
-//     console.log(a/b)
-// }else (console.log(a%b))
-// 19.Найдите квадратный корень из 77.
-// console.log(Math.sqrt(77))
-
-// 20.возведите 3 в 10 степень. Результат запишите в переменную a.
-// let a = 3
-// console.log(Math.pow(a,10))
-
-// 21. .переводите число в строку 11. (3 способа)
-// let a = 5
-// a = String(a)
-// console.log(typeof a)
-//
-// let s = 7
-// s = s.toString()
-// console.log(typeof s)
-//
-// let w= 56
-// w =w+''
-// console.log(typeof w)
-
-// 22.переводите строку в число 33. (3 способа)
-
-// let d = '33'
-// d = Number(d)
-// console.log(typeof d)
-
-// let d = '33'
-// d = parseInt(d)
-// console.log(typeof d)
-
-
-// let d = '33'
-// d =+d
-// console.log(typeof d)
-
-
-// 23. округлите число в большую сторону, в меньшую сторону и до ближайшего целого.
-//  console.log(Math.ceil(23.4))
-// console.log(Math.floor(25.2))
-// console.log(Math.round(67.8))
-// console.log(Math.round(67.2))
-
-// 24. создайте условие если в переменной age будет число меньше 18 то выведите
-// 'вы должны быть старше 18', если больше 18 то выведите 'добро пожаловать!'.
-
-// let age = 16
-// if (age >=18){
-//     console.log('добро пожаловать!')
-// }else {
-//     console.log('вы должны быть старше 18')
-// }
-// 25. выведете рандомные числа от 0 до 200.
-// console.log(Math.random()*200)
-
-// 26. создайте две переменные, today = сегодняшнее число, birthday = число вашего день рождения, и пропишите
-// условие если сегодняшнее число равно вашему дню рождения то выведете “happy birthday” если нет “not today”.
-
-// let today = 4
-// let birthday = 14
-// if (today===birthday){
-//     console.log('happy birthday')
-// }else {
-//     console.log('not today')
-// }
-//
-// 27. создайте условие если переменная light равна green то выведете «можете ехать» если yellow
-// то «немного подождите»
-// если red то «остановитесь» если любой другой то «неизвестно».
-//
-// let light = 'green'
-// if (light==='green'){
-//     console.log('можете ехать')
-// }else if ( light ==='yellow'){
-//     console.log('немного подождите')
-// }else if (light=== 'red'){
-//     console.log( 'остановитесь')
-// }else {
-//     console.log('неизвестно')
-// }
-
-// 28. создайте три переменные с числами, и создайте условие если все три
-// равны то выведете «все равны» если хоть одна не равна выведете «не равны».
-
-// let a = 4
-// let b = 4
-// let c = 4
-// if (a === b && b ===c && c ===a){
-//     console.log('все равны')
-// }else {
-//     console.log('не равны')
-// }
-// 29. создайте две переменные, today = сегодняшнее число, birthday = число вашего день рождения, и пропишите
-// условие если сегодняшнее число равно вашему дню рождения
-// то выведете “happy birthday” , если число меньше чем ваше день рождения то выведете «ещё рано» а если больше то выведете «уже поздно».
-
-// let today = 17
-// let birthday = 14
-// if (today===birthday){
-//     console.log('happy birthday')
-// }else if (today<birthday){
-//     console.log('ещё рано')
-// }else if(today>birthday){
-//     console.log('уже поздно')
-// }
-// 30.вам дана строка из 3-х цифр. Найдите сумму этих цифр. То есть сложите как числа первый символ строки, второй и третий.??????????????
-// let f = '123'
-// let sum = Number(f[0])+Number(f[1])+Number(f[2])
-// console.log(sum)
-
-// 31. создайте переменную внутри будет строка из 6 цифр. Проверьте, что сумма первых трех цифр равняется сумме вторых трех цифр.
-// //     Если это так - выведите 'да', в противном случае выведите 'нет'.
-
-// let num = '123456'
-
-
 
 // // класнная работа 5 июля 2021 года
 // let a = 43
@@ -525,8 +221,6 @@
 // }
 // let a = 34
 // console.log (a % 2 === 0 ? 'Четное число' : 'Нечетное число')
-
-
 
 
 // Массивы - набор данных
@@ -571,99 +265,403 @@
 //
 // let letter = 'lorem ipsum dolor'
 // console.log(letter.replace('o', '*')) // заменяет значение
-// console.log(letter.replace(/o/g, '*')) // заменяет все значение
+// console.log(letter.replace(/o/gi, '*')) // заменяет все значение
 
-// Home work 3==================
-// 1. Вам дана переменная str = 'Nevis ITDB TECH'. Выведите в консоль длину первого слова.
-// let str ='Nevis ITDB TECH'
-// console.log(str.split(" ")[0].length)
+// классная работа 6 июля 2021
 
-// 2. Вам дана переменная str = 'Максимально УЖАСНО'. Выведите в консоль слово УЖАСНО,
-//     только нижним регистром.
+// let a = 5
+// if (a % 5 === 0){
+//     console.log('Кратный к 5')
+// }else {
+//     console.log('Некратный к 5')
+// }
+// let str = 'lorem ipsum'
+// if (str.includes('a')){
+//     console.log('yes')
+// }else {
+//     console.log('net')
+// }
+// let str1 = 'IT Dubay'
+// if (str1.includes('a')){
+//     console.log('yes')
+// }else {
+//     console.log('net')
+// }
+// let str2 = 'Mockow'
+// if (str2.includes('a')){
+//     console.log('yes')
+// }else {
+//     console.log('net')
+// }
+
+
+// // Functions
 //
-// let str = 'Максимально УЖАСНО'
-// console.log(str.split(" ")[1].toLowerCase())
+// function sum(a, d) {
+//     return a + d
+// }
 //
-// 3. Вам дана переменная str = 'максимально УЖАСНО'. Выведите в консоль слово
-// максимально, только верхним регистром.
-// let str = 'максимально УЖАСНО'
-// console.log(str.split(' ')[0].toUpperCase())
-
-// 4. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль каждый символ этой
-// строки, используя метод split.
-//     Пример : [ 'C','o','d','i','n','g',' ','i','s',' ','t','h','e',' ', 'L','O','V','E',
-//     ' ','o','f',' ','m','y',' ','L','I','F','E','!' ]
-// let str = 'Максимально Ужасно'
-// console.log(str.split(''))
-
-// 5. Вам дана переменная str = 'Максимально Ужасно, переделывай'. Выведите в консоль все слова этой строки,
-//     используя метод split. Пример: [ 'Максимально' 'ужасно', 'переделывай'. ]
-// let str = 'Максимально Ужасно, переделывай'
-// console.log(str.split(' ,'))
-
-// 6. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль
-// 'мально Ужасно', используя метод slice.
-
-// let str = 'Максимально Ужасно'
-// console.log(str.slice(5,18))
-
-// 7. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль букву У, использую метод charAt.
-// let str = 'Максимально Ужасно'
-// console.log(str.charAt(12))
-
-// 8. Вам даны переменные str = 'Максимально', str2 = 'Ужасно'. Выведите в консоль
-// соединенные строки, используя метод concat.
-
-// let str = 'Максимально'
-// let str2 = 'Ужасно'
-// console.log(str.concat(str2))
-
-// 9. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль индекс слова 'Ужасно'.
-// let str = 'Максимально Ужасно'
-// console.log(str.indexOf('Ужасно'))
-
-// 10. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль "встречается более 1 раза",
-//     если букв 'a' встречается более 1 раза, иначе "встречается менее одного раза"
-
-
-// let str = 'Максимально Ужасно'
-// console.log(str.indexOf('а')===str.lastIndexOf('а')? 'встречается менее одного раза': 'встречается более 1 раза')
-
-// 12. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль индекс последней буквы а.
-// let str = 'Максимально Ужасно'
-//     console.log(str.lastIndexOf('а'))
-
-// 13. Вам дана переменная str = 'Максимально Ужасно'. Выведите в консоль индекс первой буквы о.
-// let str = 'Максимально Ужасно'
-// console.log(str.indexOf('о'))
-
-// 14. Вам дана переменная str = 'aaa bbb ccc'. Вырежите из нее слово 'bbb' тремя разными способами
-// (через substr, substring, slice) и выведите в консоль.
-// let str = 'aaa bbb ccc'
-// console.log(str.substr(4,3))
-// console.log(str.substring(4,7))
-// console.log(str.slice(4,7))
-
-// 15. Вам дана переменная str = '17-02-2021'. Преобразуйте эту дату в формат '31/12/2025' и выведите в консоль.
-// let str = '17-02-2021'
-// console.log(str.replace('17-02-2021', '31/12/2025'))
-
-// 16. Вам дана переменная str = 'Максимально Ужасно'. Проверьте, есть ли буква "в" в данной строке, если да,
-//     то выведите "Да", иначе - "нет".
-
-// let str = 'Максимально Ужасно'
-// console.log(str.includes('в')? 'Да':'нет')
-
-// 17. Вам дана переменная str = 'АаааааА'. Проверьте, если первая буква в строке совпадает с последней,
-//     если да, то выведите в консоль "Совпадает", иначе - "Не совпадает".
+// console.log(sum(18, 23))
+// console.log(sum(19, 65))
+// console.log(sum(18, 34))
 //
-// let str = 'АаааааА'
-// console.log(str.indexOf('0')===str.lastIndexOf('6')? 'Совпадает':'Не совпадает')
+// function square(num) {
+//     return num * num
+// }
+//
+// console.log(square(4))
+// console.log(square(8))
+// console.log(square(78))
+//
+// function checkSymbol(str) {
+//     if (str.includes('a')) {
+//         return 'yes'
+//     }
+//         return 'net'
+//
+// }
+// console.log(checkSymbol('mish'))
+// console.log(checkSymbol('apple'))
+
+// function checkNumber(a){    // имя которое получает значение это параметр
+//     if (a > 0){
+//         return 'positive'
+//     }else if (a < 0){
+//         return 'negative'
+//     } return '0'
+//
+// }
+// console.log(checkNumber(2))
+// console.log(checkNumber(-2))
+// console.log(checkNumber(0)) // фактическое значение которое передается называется аргументом
+//
+// Напишите функцию, которая принимает два числа и возвращает произведение этих двух чисел.
+//
+
+// Напишите функцию, которая принимает имя и возвращает строку по шаблону: Hello my dear {name}
+// function greeting(name){
+//     return `Hello my dear ${name} `
+// }
+// console.log(greeting('Ivan'))
+
+// Напишите функцию, которая принимает все, что угодно и возвращает его тип данных:
+//
+// function task3(a){
+//     return typeof a
+// }
+// console.log(task3(4))
+// console.log(task3('ivan'))
+// console.log(task3(false))
+//
+// Напишите функцию, которая принимает два числа, если первое число больше второго, вывести: a больше b,
+//     если второе больше первого, то вывести : b больше a, иначе: Они равны
+
+// function comparison(a,b) {
+//     if (a > b) {
+//         return `${a} больше ${b}`
+//     } else if (a < b) {
+//         return `${b} больше ${a}`
+//     } else return 'Они равны'
+// }
+//     console.log(comparison(1,4))
+//     console.log(comparison(8,4))
+//     console.log(comparison(8,8))
+
+// Напишите функцию, которая принимает число и проверяет
+// его кратность пяти. Ответ представить в виде true или false:
+
+// function task5(a) {
+//   return  a %5 === 0
+// }
+// console.log(task5(25))
+
+// Напишите функцию, которая принимает строку и выводит длину строки:
+//
+// function task6(a){
+//     return (a.length)
+// }
+// console.log(task6('ivan'))
+
+// Напишите функцию, которая принимает строку и выводит последний символ в этой строке:
+//
+// function task6(word){
+//     return word[word.length-1]
+// }
+// console.log(task6(' Hello everyone'))
+
+// Напишите функцию, которая принимает число и выводит квадратный корень этого числа
+
+// function task7(num){
+//     return Math.sqrt(num)
+// }
+// console.log(task7(25))
+
+
+// Напишите функцию, которая принимает число n и выводит целое число в диапазоне от -n до n :
+
+// function task8(num){
+//     return Math.floor(Math.random()*num*2 -num)
+// }
+// console.log(task8(8))
+
+// Напишите функцию, которая принимает число n и выводит количество цифр в числе :
+
+// function task9(n){
+//     return String(n).length
+// }
+// console.log(task9(56))
+
+// function task10(a, b,c , d){
+//     return Math.min(a, b, c, d)
+// }
+// console.log(task10(23, 56, 76,86))
+// console.log(task10(98, 56, 45,86))
+
+// Реализуйте функцию finalValue, которая вычисляет итоговую оценку
+// ученика на основе двух параметров: оценки за экзамен и количества законченных проектов.
+//
+//     Функция принимает два аргумента:
+//
+//     exam — оценка за экзамен, число от 0 до 100; projects — количество проектов,
+//     число от 0 и выше. Функция возвращает: число (итоговую оценку).
+//
+// Есть четыре возможных итоговых оценки:
+//
+//     100, если оценка за экзамен выше 90 или есть больше 10 проектов
+//
+// 90, если оценка за экзамен выше 75 и есть как минимум 5 проектов
+//
+// 75, если оценка за экзамен выше 50 и есть как минимум 2 проекта
+//
+// 0 в любом другом случае
+//
+// Вот как должна работать ваша функция:
+//
+//     пример вызова // что должна вернуть функция при таком вызове
+
+// function task11(exam, project){
+//     if (exam>90 || project>10){
+//         return 100
+//     }else if (exam>75 && project>=5){
+//         return 90
+//     }else if (exam>50 && project>=2){
+//         return 75
+//     }return 0
+// }
+//
+// console.log(task11(76, 10))
+// console.log(task11(91, 11))
+// console.log(task11(51, 3))
+// console.log(task11(11, 11))
+// console.log(task11(1, 1))
+
+
+// 8 июля 2021
+
 
 //
-// 18. Вам дана переменная str = 'Максимально'. Проверьте, если буква л, встречается в первой половине
-// строки, или последней.
-//     Если в первой, то выведите в консоль - "В первой половине", иначе - "Во второй половине".
+// let numbers = [10, 20 ,30]
+// numbers[0] = numbers[0]*numbers[0]
+// numbers[1] = numbers[1]*numbers[1]
+// numbers[2] = numbers[2]*numbers[2]
+// console.log(numbers)
 
-// let str = 'Максимально'
-// console.log(str.includes('л')< str.length/2 ? 'Во второй половине': 'В первой половине')
+
+/// .map()
+// let numbers = [10, 20, 30]
+// let newArray = numbers.map((item) => item* item)
+// console.log(newArray)
+//
+//
+// let number = [10, 20, 30]
+// let newArray2 = numbers.map((item) => item+ item)
+// console.log(newArray2)
+
+
+// let number = [10, 20, 30]
+// let newArray2 = number.map((item) => item=== 20? item*item : item)
+// console.log(newArray2)
+
+//
+// let names = ['ivan', 'petya', 'vasya', 'sasha']
+// let result = names.map((item) => item.toUpperCase())
+// console.log(result)
+
+
+// .filter()
+
+// let numbers = [34, 67, 24, 67, 98]
+// let result = numbers.filter((item) => item >40)
+// console.log(result)
+//
+// let names =['pikachu', 'chermander', 'bulbazavr', 'ivi']
+// let result = names.filter((item) => item.length >8)
+// console.log(result)
+
+
+//// REDUCE //////////////
+//
+
+
+////// .map()
+////// .filter()
+///// .lastIn
+
+
+//
+// let names = ['Ivan' , 'Aybek', 'Mirbek']
+// let result = names.reverse()
+// console.log(result)
+// console.log(names)
+
+
+// let names = ['Ivan' , 'Aybek', 'Mirbek']
+// let result = names.join('')
+// console.log(names)
+// console.log(result)
+
+
+// .sort()
+//
+//
+// let numbers = [23, 56, 3, 6, 8, 33, 57, 22]
+// let result = numbers.sort((a, b) => a-b)
+// console.log(result)
+
+// let names = ['Darya', 'Lida', 'Anna', "Uylya"]
+// let result = names.sort((a, b) => a>b? 1:-1)
+// console.log(result)
+
+//  const pallindrome = str=>{
+//     return str.split('').reverse().join('') === str
+//  }
+//
+// console.log(pallindrome('topot'))
+// console.log(pallindrome('topot1'))
+
+
+// const isAnagram = (srt1, srt2)=>{
+//     let word1 = srt1.split('').sort((a, b)=> a>b? 1: -1).join('')
+//     let word2 =  srt2.split('').sort((a, b)=> a>b? 1: -1).join('')
+//     return  word1 === word2
+// }
+// console.log(isAnagram('банка', 'кабан'))
+// console.log(isAnagram('банкаa', 'кабан'))
+
+//
+//
+// const task = (array) => {
+//     return array.map((item)=> {
+//         if (item % 5 === 0 && item % 3 === 0){
+//             return 'fizzbuzz'
+//         }else  if (item % 5 === 0){
+//             return 'buzz'
+//         }else  if (item % 3 === 0){
+//             return 'fizz'
+//         }
+//         return  item
+//     })
+// }
+// console.log(task([1,2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 19, 20]))
+
+
+//
+// function basicOp(operation, value1, value2)
+// {
+//     basicOp(value1 + value2)
+// }
+// console.log(basicOp(()))
+
+//
+// function rentalCarCost(d) {
+//     if (d >= 7) {
+//         return d * 40 - 50
+//     } else if (d >= 3) {
+//         return d * 40 - 20
+//     }
+//         return d * 40
+// }
+// console.log(rentalCarCost(7))
+// console.log(rentalCarCost(8))
+// console.log(rentalCarCost(9))
+// console.log(rentalCarCost(10))
+// console.log(rentalCarCost(2))
+
+
+// function array(arr) {
+// if (arr.split(',').length < 3){
+//     return null
+// }
+//     return  arr.split(',').slice(1,-1).join(' ')
+// }
+// console.log(array('1, 2, 3, 4'))
+// console.log(array(''))
+// console.log(array('1, 2'))
+//
+//
+
+/// 12 июля  2021
+// function  fizzbuzz(n){
+//     let array = Array(n).fill(0).map((item, idx) => idx + 1)
+//     return array.map(item => {
+//         if (item %15 === 0 ){
+//             return 'FizzBuzz'
+//         }else  if (item % 3 === 0 ){
+//             return 'Fizz'
+//         }else if (item % 5 === 0){
+//             return 'Buzz'
+//         }
+//         return item
+//     })
+// }
+
+
+// function squareDigits(num){
+//     return +num.toString().split('').map((item) => item * item).join('')
+//
+// }
+// console.log(squareDigits(435))
+
+
+// const findShort =(s) =>{
+// return s.split(' ').sort((a, b) => a.length -b.length)[0].length
+// }
+// console.log(findShort("Let's travel abroad shall we"))
+//
+// Напишите функцию, которая принимает массив и возвращает наименьшее число в массиве.
+// const task1 = (array) => {
+//     return array.reduce((acc, item) => {
+//         if (item < acc){
+//             return item
+//         }
+//         return acc
+//             }, array[0])
+// }
+// console.log(task1([3, 7, 34, 2]))
+
+// Напишите функцию, которая принимает строку и возвращает строку в алфавитном порядке.
+
+// function task2(str) {
+// return str.toLowerCase().split('').sort((a, b) => a>b ? 1:-1).join('')
+// }
+// console.log(task2('Hello'))
+
+
+// Напишите функцию, которая принимает строку и повторяем каждый ее символ 2 раза.
+
+// const task6 = str => {
+//     return str.split('').map((item) => item+item).join('')
+// }
+// console.log(task6('test'))
+
+
+// const task6 = str => {
+//     return str.split('').reduce((acc, item) => acc +item+item, '')
+// }
+// console.log(task6('test'))
+
+
+function countWords(str) {
+
+}
+console.log(countWords("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."))
