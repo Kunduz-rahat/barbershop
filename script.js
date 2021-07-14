@@ -661,7 +661,15 @@
 // console.log(task6('test'))
 
 
-function countWords(str) {
+///// 13 july
+
+
+const findDup = (arr) => {
+    return arr.find((item, idx) => {
+        if (arr.indexOf(item) !== idx) {
+            return item
+        }
+    })
 
 }
-console.log(countWords("Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."))
+console.log(findDup([1, 3, 2, 5, 4, 5, 7, 6]))
